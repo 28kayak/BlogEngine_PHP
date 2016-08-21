@@ -17,6 +17,12 @@ if(isset($_POST['submit']))
     {
         echo "$username or $password is not filled";
     }
+    else
+    {
+        //data is sufficient
+
+
+    }
 }
 ?>
 
@@ -31,7 +37,7 @@ if(isset($_POST['submit']))
             Username:<br>
             <input type="text" name="username"><br>
             Password:<br>
-            <input type="text" name="password"><br>
+            <input type="password" name="password"><br>
 
             <input type="submit" name="submit" value="login">
         </form>
